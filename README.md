@@ -18,16 +18,17 @@ O HTML do Planalto (como o da LGPD) geralmente não usa classes modernas. Ele se
     - `<br>` quebrando linhas em vez de usar `<h2>`, `<h3>`.
 
 ### Exemplo real de trecho:
-
-''' <p style="text-align:center"><b>LEI Nº 13.709, DE 14 DE AGOSTO DE 2018</b></p>
+```
+<p style="text-align:center"><b>LEI Nº 13.709, DE 14 DE AGOSTO DE 2018</b></p>
 <p>Dispõe sobre a proteção de dados pessoais...</p>
 <p><b>CAPÍTULO I<br>DISPOSIÇÕES PRELIMINARES</b></p>
-<p>Art. 1º Esta Lei dispõe sobre...</p> '''
+<p>Art. 1º Esta Lei dispõe sobre...</p>
+```
 
 O objetivo é envelopar o conteúdo original em blocos semânticos, sem mexer no texto da lei. Assim, criando ganchos CSS.
 
 ### Exemplo de reorganização:
-'''
+```
 <body>
   <header>
     <h1>Lei nº 13.709, de 14 de agosto de 2018</h1>
@@ -54,7 +55,7 @@ O objetivo é envelopar o conteúdo original em blocos semânticos, sem mexer no
     </section>
   </main>
 </body>
-'''
+```
 
 ### criar um conjunto pequeno e semântico:
 - .lei → container geral da lei.
@@ -71,6 +72,7 @@ O objetivo é envelopar o conteúdo original em blocos semânticos, sem mexer no
 
 - .paragrafo → se quiser separar §§ de dentro dos artigos.
 
+<br>
 
 O desafio é que o HTML do Planalto é pouco semântico, então é preciso criar regras de parsing para detectar os elementos (Capítulo, Artigo, §, etc.) e aplicar classes/estruturas modernas.
 

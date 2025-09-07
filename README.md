@@ -11,11 +11,11 @@ O HTML do Planalto (como o da LGPD) geralmente não usa classes modernas. Ele se
 
     - `<p>` para cada artigo/linha.
 
-    - <b> ou <strong> para títulos/capítulos.
+    - `<b>` ou `<strong>` para títulos/capítulos.
 
-    - <center> em alguns documentos.
+    - `<center>` em alguns documentos.
 
-    - <br> quebrando linhas em vez de usar <h2>, <h3>.
+    - `<br>` quebrando linhas em vez de usar `<h2>`, `<h3>`.
 
 ### Exemplo real de trecho:
 
@@ -90,7 +90,7 @@ Ao analisar leis como a LGPD, é encontrado sempre repetições previsíveis:
 - Incisos → numerados com algarismos romanos (I -, II -, III - …).
 
 
-- Alíneas → letras minúsculas seguidas de ) → a), b), etc.
+- Alíneas → letras minúsculas seguidas de `)` → `a)`, `b)`, etc.
 
 
 - Esses padrões podem ser detectados por regex.

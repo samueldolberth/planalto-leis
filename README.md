@@ -5,7 +5,7 @@ O HTML do Planalto (como o da LGPD) geralmente não usa classes modernas. Ele se
 ---
 ## O que você vai encontrar nesse HTML
 
-- Nenhuma classe ou id (em 99% dos casos).
+- Nenhuma classe ou id** (em 99% dos casos).
 
 - Estrutura baseada em:
 
@@ -58,19 +58,19 @@ O objetivo é envelopar o conteúdo original em blocos semânticos, sem mexer no
 ```
 
 ### criar um conjunto pequeno e semântico:
-- .lei → container geral da lei.
+- *.lei* → container geral da lei.
 
 
-- .capitulo → agrupa cada capítulo.
+- *.capitulo* → agrupa cada capítulo.
 
 
-- .artigo → cada artigo.
+- *.artigo* → cada artigo.
 
 
-- .subtitulo → descrição abaixo do título principal.
+- *.subtitulo* → descrição abaixo do título principal.
 
 
-- .paragrafo → se quiser separar §§ de dentro dos artigos.
+- *.paragrafo* → se quiser separar §§ de dentro dos artigos.
 
 <br>
 

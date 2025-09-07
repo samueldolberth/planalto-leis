@@ -1,7 +1,7 @@
 # Analisando o HTML do Planalto
 
-```O HTML do Planalto (como o da LGPD) geralmente não usa classes modernas. Ele segue um estilo antigo, com marcação semântica pobre e, muitas vezes, com tags de apresentação (<font>, <b>, <u>) ou apenas <p> para tudo.
-```
+O HTML do Planalto (como o da LGPD) geralmente não usa classes modernas. Ele segue um estilo antigo, com marcação semântica pobre e, muitas vezes, com tags de apresentação (`<font>`, `<b>`, `<u>`) ou apenas `<p>` para tudo.
+
 ---
 ## O que você vai encontrar nesse HTML
 
@@ -9,7 +9,7 @@
 
 - Estrutura baseada em:
 
-    - <p> para cada artigo/linha.
+    - `<p>` para cada artigo/linha.
 
     - <b> ou <strong> para títulos/capítulos.
 

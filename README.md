@@ -5,7 +5,7 @@ O HTML do Planalto (como o da LGPD) geralmente não usa classes modernas. Ele se
 ---
 ## O que você vai encontrar nesse HTML
 
-- Nenhuma classe ou id** (em 99% dos casos).
+- Nenhuma **classe** ou **id** (em 99% dos casos).
 
 - Estrutura baseada em:
 
@@ -58,19 +58,19 @@ O objetivo é envelopar o conteúdo original em blocos semânticos, sem mexer no
 ```
 
 ### criar um conjunto pequeno e semântico:
-- *.lei* → container geral da lei.
+- **.lei** → container geral da lei.
 
 
-- *.capitulo* → agrupa cada capítulo.
+- **.capitulo** → agrupa cada capítulo.
 
 
-- *.artigo* → cada artigo.
+- **.artigo** → cada artigo.
 
 
-- *.subtitulo* → descrição abaixo do título principal.
+- **.subtitulo** → descrição abaixo do título principal.
 
 
-- *.paragrafo* → se quiser separar §§ de dentro dos artigos.
+- **.paragrafo** → se quiser separar §§ de dentro dos artigos.
 
 <br>
 
@@ -79,20 +79,20 @@ O desafio é que o HTML do Planalto é pouco semântico, então é preciso criar
 ## Padrões que aparecem no HTML do Planalto
 Ao analisar leis como a LGPD, é encontrado sempre repetições previsíveis:
 
-- Capítulos → quase sempre escritos como:
-    - CAPÍTULO I, CAPÍTULO II, … seguidos do título em maiúsculas.
+- **Capítulos** → quase sempre escritos como:
+    - **CAPÍTULO I, CAPÍTULO II,** … seguidos do título em maiúsculas.
 
 
-- Artigos → começam com Art. e um número (Art. 1º, Art. 2º, …).
+- **Artigos** → começam com Art. e um número (Art. 1º, Art. 2º, …).
 
 
-- Parágrafos → começam com § 1º, § 2º, etc.
+- **Parágrafos** → começam com § 1º, § 2º, etc.
 
 
-- Incisos → numerados com algarismos romanos (I -, II -, III - …).
+- **Incisos** → numerados com algarismos romanos (I -, II -, III - …).
 
 
-- Alíneas → letras minúsculas seguidas de `)` → `a)`, `b)`, etc.
+- **Alíneas** → letras minúsculas seguidas de `)` → `a)`, `b)`, etc.
 
 
-- Esses padrões podem ser detectados por regex.
+Esses padrões podem ser detectados por regex.
